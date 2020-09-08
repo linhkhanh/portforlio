@@ -1,38 +1,242 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800&display=swap');
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+.about {
+  position: relative;
+  bottom: 200px;
+}
+
+section {
+  background-color: white;
+  padding-top: 1%;
+}
+
+.cover {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  font-weight: 800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bt-contact {
+  background-color: salmon;
+  border: none;
+  padding: 2% 4%;
+}
+
+.bt-contact:hover {
+  background-color: #292f45;
+  color: white;
+}
+
+.cover {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.contact-me {
+  margin-top: 2%;
+}
+
+.one-edu {
+  margin-bottom: 5%;
+}
+
+.edu-work {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  position: relative;
+  bottom: 100px;
+}
+
+.blue-italic {
+  font-style: italic;
+  color: #5569dc;
+}
+
+.blue-text {
+  color: #5569dc;
+}
+
+.skill {
+  background-color: #eff0fb;
+  padding: 7% 2%;
+}
+
+.skill-content {
+  width: 70%;
+  margin: auto;
+}
+
+.one-skill {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+* {box-sizing: border-box}
+
+p {
+  margin: 0;
+}
+
+.expertise {
+  margin-bottom: 5%;
+}
+.container-1 {
+  width: 80%;
+  background-color: #ddd;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  color: white;
+  padding: 0.2%;
+  border-radius: 10px;
+}
+
+.html {width: 90%; background-color: #007E33;}
+.css {width: 80%; background-color: #0099CC;}
+.js {width: 80%; background-color: #f44336;}
+.node {width: 75%; background-color: #9933CC;}
+.mongo {width: 60%; background-color: #00695c;}
+.boost {width: 80%; background-color: #0d47a1;}
+.react {width: 65%; background-color: #3F729B;}
+.sql {width: 50%; background-color: #FF8800;}
+
+.one-project {
+  min-height: 500px;
+}
+
+.end {
+  background-color:#456bac;
+  padding: 3%;
+  color: white;
+}
+
+.love {
+  margin: 2%;
+}
+
+.bt-contact-1 {
+  background-color: salmon;
+  padding: 0.5% 2%;
+  border: none;
+}
+
+.bt-contact-1:hover {
+  background-color: #292f45;
+  color: white;
+}
+
+.example {
+  width: 50%;
+  padding: 3%;
+  margin: auto;
+  position: relative;
+  bottom: 60px;
+  background-color: white;
+}
+
+.light-blue-1 {
+  background-color: #eaeff9;
+  padding: 5%;
+}
+
+.edu-work-page {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 30%;
+}
+
+.hear {
+  padding: 2%;
+}
+
+.one-contact {
+  width: 30%;
+}
+
+.message {
+  background-color: #eaeff9;
+  height: 300px;
+
+}
+
+.form {
+  position: relative;
+  bottom: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  
+}
+
+form {
+  background-color: white;
+  width: 50%;
+}
+
+.chat {
+  background-color: salmon;
+  padding: 2%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+
+.chat-icon  {
+  position: relative;
+  bottom: 60px;
+}
+
+.chat-sentence {
+  position: relative;
+  bottom: 40px;
+}
+
+.btn-send {
+  background-color: salmon;
+  padding: 1% 10%;
+  border: none;
+}
+
+.btn-send:hover {
+  background-color: #292f45;
+  color: white
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-part {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 5%;
 }
