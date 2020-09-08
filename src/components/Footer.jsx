@@ -11,7 +11,7 @@ function Footer() {
 
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../../img/logo_size_invert.jpg" height="30" alt="linh logo" />
+                            <img src="https://res.cloudinary.com/dt5rqi1l9/image/upload/v1599544924/logo_size_invert_zmyzml.jpg" height="30" alt="linh logo" />
                         </div>
                         <div class="col-md-4">
                             <ul class="list-unstyled d-flex justify-content-center mb-0 mt-2">

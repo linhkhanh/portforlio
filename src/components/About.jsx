@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function About(props) {
-    const style = props.style;
+    const style_1 = props.style;
     const image = props.image;
 
     return (
-        <div className={style}>
+        <div className={style_1}>
             <div class="container my-5 py-5 z-depth-1">
                 <section class="px-md-5 mx-md-5 dark-grey-text text-center text-lg-left">
                     <div class="row">

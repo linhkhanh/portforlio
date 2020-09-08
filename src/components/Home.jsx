@@ -10,8 +10,8 @@ function Home() {
     return (
         <div>
             <Cover />
-            <About style="about" image="../../img/pic1.jpg"/>
-            <Education style="edu-work"/>
+            <About style="about" image="https://res.cloudinary.com/dt5rqi1l9/image/upload/v1599544701/pic1_qnqxeo.jpg"/>
+            <Education style_1="edu-work"/>
             <Skills />
             <Projects />
             <End />

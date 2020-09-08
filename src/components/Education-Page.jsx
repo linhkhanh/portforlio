@@ -10,7 +10,7 @@ function EducationPage() {
             <div class="example z-depth-2 text-center">
                 <h1>Education & Experience</h1>
             </div>
-            <Education style="edu-work-page"/>
+            <Education style_1="edu-work-page"/>
         </div>
     );
 }
